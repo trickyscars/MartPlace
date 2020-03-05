@@ -2894,7 +2894,7 @@
     z-index: 100;
     height: 0px;
     overflow: hidden;
-    transition: all .6s;
+    transition: all 0.6s;
     .not__box {
         padding: 0px 20px;
         .mynot {
@@ -2945,7 +2945,7 @@
             }
             .jorden::after {
                 position: absolute;
-                font-family: 'icomoon';
+                font-family: "icomoon";
                 content: "\e904";
                 background-color: #f1ecf9;
                 border-radius: 50%;
@@ -2962,7 +2962,7 @@
             }
             .moshed::after {
                 position: absolute;
-                font-family: 'icomoon';
+                font-family: "icomoon";
                 content: "\e90e";
                 background-color: #fff0f0;
                 border-radius: 50%;
@@ -2979,7 +2979,7 @@
             }
             .tamit::after {
                 position: absolute;
-                font-family: 'icomoon';
+                font-family: "icomoon";
                 content: "\e904";
                 background-color: #effaeb;
                 border-radius: 50%;
@@ -3003,7 +3003,7 @@
     }
     .notone::before {
         position: absolute;
-        content: '';
+        content: "";
         height: 40px;
         width: 40px;
         background-color: #3a2c29;
@@ -3012,7 +3012,7 @@
     }
     .coffee::after {
         position: absolute;
-        font-family: 'icomoon';
+        font-family: "icomoon";
         content: "\e900";
         background-color: #e6f1fd;
         border-radius: 50%;
@@ -3049,7 +3049,7 @@
     z-index: 110;
     height: 0px;
     overflow: hidden;
-    transition: all .6s;
+    transition: all 0.6s;
     border-top: none;
     .cart__total {
         color: #000;
@@ -3137,7 +3137,7 @@
             cursor: pointer;
         }
         .cart__cont-wordpress::before {
-            font-family: 'icomoon';
+            font-family: "icomoon";
             position: absolute;
             content: "\eab4";
             color: $purple;
@@ -3165,7 +3165,7 @@
     z-index: 120;
     position: absolute;
     overflow: hidden;
-    transition: all .6s;
+    transition: all 0.6s;
     box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
 }
 
@@ -3202,7 +3202,7 @@
                 position: relative;
             }
             .just::before {
-                font-family: 'icomoon';
+                font-family: "icomoon";
                 content: "\e907";
                 position: absolute;
                 left: 0;
@@ -3221,7 +3221,7 @@
         }
     }
     .messages__cont::before {
-        content: '';
+        content: "";
         position: absolute;
         background-color: #333;
         width: 40px;
@@ -3248,7 +3248,7 @@
     height: 0px;
     box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
     overflow: hidden;
-    transition: all .6s;
+    transition: all 0.6s;
     top: 75px;
     ul {
         padding: 20px;
@@ -3305,7 +3305,6 @@
         background-color: $button;
         a {
             color: #fff;
-            ;
         }
     }
 }
@@ -3346,7 +3345,6 @@
         background-color: $button;
         a {
             color: #fff;
-            ;
         }
     }
 }
@@ -3392,7 +3390,6 @@
         background-color: $button;
         a {
             color: #fff;
-            ;
         }
     }
 }
@@ -3421,7 +3418,7 @@
     position: absolute;
     top: 129px;
     left: 190px;
-    .nameClass--active li {
+    li {
         // display: block !important;
         // z-index: 200;
         width: 180px;
@@ -3437,7 +3434,6 @@
     li:hover {
         a {
             color: rgb(235, 64, 64);
-            ;
         }
     }
 }
@@ -3461,6 +3457,8 @@
 
 .list__inner {
     display: flex;
+    justify-content: space-between;
+    min-height: 2020px;
 }
 
 .mart-two {
@@ -3518,4 +3516,518 @@
     text-transform: none;
     border-bottom: 1px solid #e8ebf0;
     margin-top: -13px;
+}
+
+// -----------------------material--------------------
+.material {
+    background-image: url(../images/material-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 185px;
+}
+
+//
+.mat-list {
+    margin-right: 845px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    .acword {
+        padding-left: 10px;
+        a {
+            color: #fff;
+        }
+        &::before {
+            content: "/";
+            position: absolute;
+            color: #fff;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+.material__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+// -----------------------live--------------
+.live {
+    min-height: 2890px;
+    background-color: #eff1f5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.live__inner {
+    display: flex;
+}
+
+.live__left {
+    height: 2715px;
+}
+
+.preview__box {
+    background-color: #fff;
+    max-width: 750px;
+    min-height: 660px;
+    margin-top: 70px;
+    display: inline-block;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    border-radius: 4px;
+    .preview__box-btn {
+        border-bottom: 1px solid #e8e8e8;
+        padding-bottom: 30px;
+        width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+        a {
+            width: 185px;
+            height: 50px;
+            border: none;
+            border-radius: 30px;
+            outline: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 30px;
+        }
+        .prone {
+            color: #fff;
+            position: relative;
+            padding-left: 25px;
+            background-color: $button;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+            padding: 15px 2px 15px 48px;
+            font-weight: 700;
+            transition: all 0.5s;
+            margin-left: 140px;
+            margin-right: 30px;
+        }
+        .prone:hover {
+            background-color: #fff;
+            color: $button;
+        }
+        .prtwo {
+            color: $purple;
+            position: relative;
+            background-color: #fff;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+            padding: 15px 2px 15px 45px;
+            font-weight: 700;
+            transition: all 0.5s;
+        }
+        .prtwo:hover {
+            color: #fff;
+            background-color: $purple;
+        }
+        .prtwo::before {
+            font-family: "icomoon";
+            content: "\e900";
+            left: 25px;
+            position: absolute;
+        }
+    }
+}
+
+.preview__box-soc {
+    display: flex;
+    justify-content: space-between;
+    .prev-share {
+        a {
+            color: #000;
+            position: relative;
+            background-color: #fff;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+            padding: 15px 2px 15px 50px;
+            transition: all 0.5s;
+            transition: all 0.5s;
+            width: 185px;
+            height: 50px;
+            border: none;
+            border-radius: 30px;
+            outline: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 30px;
+            margin-left: 115px;
+        }
+        a:hover {
+            background-color: #000;
+            color: #fff;
+        }
+        a::before {
+            font-family: "icomoon";
+            content: "\ea82";
+            left: 20px;
+            position: absolute;
+        }
+    }
+    .presoc {
+        margin-right: 110px;
+    }
+}
+
+.landing__box {
+    display: inline-block;
+    background-color: #fff;
+    min-height: 2020px;
+    display: block;
+    margin-top: 25px;
+    max-width: 750px;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    border-radius: 4px;
+    .landing__btn {
+        a {
+            color: #000;
+            font-size: 17px;
+            font-weight: 400;
+            background-color: #fff;
+        }
+        a:hover {
+            color: $button;
+            border-top: 2px solid $button;
+            border-bottom: none;
+            height: 69px;
+            transition: all 0.3s;
+        }
+        .item-det {
+            width: 153px;
+            height: 70px;
+            border-bottom: 1px solid #e8e8e8;
+            border-right: 1px solid #e8e8e8;
+            border-left: 1px solid #e8e8e8;
+            text-align: center;
+            padding-top: 25px;
+        }
+        .item-comment {
+            width: 180px;
+            height: 70px;
+            border-bottom: 1px solid #e8e8e8;
+            border-right: 1px solid #e8e8e8;
+            text-align: center;
+            padding-top: 25px;
+            margin-left: -4px;
+        }
+        .item-rev {
+            width: 122px;
+            height: 70px;
+            border-bottom: 1px solid #e8e8e8;
+            border-right: 1px solid #e8e8e8;
+            text-align: center;
+            padding-top: 25px;
+            margin-left: -4px;
+        }
+        .item-sup {
+            width: 120px;
+            height: 70px;
+            border-bottom: 1px solid #e8e8e8;
+            border-right: 1px solid #e8e8e8;
+            text-align: center;
+            padding-top: 25px;
+            margin-left: -4px;
+        }
+        .item-faq {
+            width: 173px;
+            height: 70px;
+            border-bottom: 1px solid #e8e8e8;
+            text-align: center;
+            padding-top: 25px;
+            margin-left: -4px;
+        }
+    }
+}
+
+.landing__cont {
+    padding: 60px 50px 0px 30px;
+    &-title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    &-text {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        margin-bottom: 65px;
+    }
+}
+
+.unordered__list {
+    padding: 0px 50px 0px 30px;
+    &-title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    ul {
+        li {
+            padding-left: 30px;
+            position: relative;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+        li::before {
+            font-family: "icomoon";
+            position: absolute;
+            content: "\e903";
+            left: 0;
+        }
+    }
+}
+
+.ordered__list {
+    padding: 0px 50px 0px 30px;
+    .ordered__list-title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        margin-top: 65px;
+    }
+    ul {
+        li {
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+    }
+}
+
+.big__pic {
+    padding: 0px 50px 0px 30px;
+    margin-top: 70px;
+    display: inline-block;
+    &-title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 45px;
+    }
+}
+
+.license__wrapper {
+    margin-left: 30px;
+    max-width: 360px;
+    min-height: 555px;
+    background-color: #fff;
+}
+
+.license__box {
+    width: 360px;
+    height: 105px;
+    background-color: $button;
+    margin-top: 70px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    span {
+        font-size: 18px;
+        padding-top: 30px;
+        position: absolute;
+        font-size: 18px;
+        left: 123px;
+        top: 3px;
+    }
+}
+
+.license__single {
+    background-color: #fff;
+    height: 186px;
+    .license__single-cont {
+        border-bottom: 1px solid #e6e9ed;
+        width: 300px;
+        height: 186px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 35px;
+        .license__single-title {
+            font-size: 18px;
+            font-weight: 500;
+            color: #000;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .license__single-title::before {
+            font-family: "icomoon";
+            content: "\e903";
+            position: absolute;
+            left: -36px;
+            background-color: $button;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            color: #fff;
+        }
+        .license__single-text {
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #555;
+        }
+    }
+}
+
+.license__multi {
+    padding: 30px 30px 40px 30px;
+    height: 265px;
+    .license__multi-title {
+        padding-left: 35px;
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+    }
+    .license__multi-title::before {
+        font-family: "icomoon";
+        content: "\ea56";
+        position: absolute;
+        left: 0;
+        color: #e6e9ed;
+    }
+    .license__multi-btn {
+        a {
+            width: 300px;
+            height: 50px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            border-radius: 30px;
+            text-align: center;
+            padding-top: 15px;
+            margin-top: 35px;
+        }
+        .purpur {
+            background-color: $button;
+            transition: all 0.5s;
+        }
+        .purpur:hover {
+            background-color: $purple;
+        }
+        .cartcart {
+            background-color: $purple;
+            transition: all 0.5s;
+        }
+        .cartcart:hover {
+            background-color: $button;
+        }
+    }
+}
+
+.license__numbers {
+    margin-left: 30px;
+    background-color: #fff;
+    width: 360px;
+    height: 320px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    &-box {
+        .license-star {
+            margin-left: 75px;
+            padding-top: 40px;
+            position: relative;
+            padding-right: 107px;
+            display: inline-block;
+        }
+        .license-star::after {
+            content: "( 26 Ratings )";
+            position: absolute;
+            right: -18px;
+            top: 45px;
+        }
+        .license__com {
+            width: 300px;
+            height: 70px;
+            background-color: #fff;
+            padding-top: 25px;
+            border-bottom: 1px solid #ccc;
+            margin: 0 auto;
+            span {
+                padding-left: 30px;
+                position: relative;
+                padding-right: 195px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            span::before {
+                font-family: "icomoon";
+                content: "\e904";
+                position: absolute;
+                left: 0;
+                color: #63cdea;
+            }
+            span::after {
+                content: "35";
+                position: absolute;
+                right: -100px;
+                top: 0;
+                font-size: 18px;
+            }
+        }
+        .license__fav {
+            width: 300px;
+            height: 70px;
+            background-color: #fff;
+            padding-top: 25px;
+            border-bottom: 1px solid #ccc;
+            margin: 0 auto;
+            span {
+                padding-left: 30px;
+                position: relative;
+                padding-right: 195px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            span::before {
+                font-family: "icomoon";
+                content: "\e900";
+                position: absolute;
+                left: 0;
+                color: $purple;
+            }
+            span::after {
+                content: "240";
+                position: absolute;
+                right: -8px;
+                top: 0;
+                font-size: 18px;
+            }
+        }
+        .license__tot {
+            width: 300px;
+            height: 70px;
+            background-color: #fff;
+            padding-top: 25px;
+            border-bottom: 1px solid #ccc;
+            margin: 0 auto;
+            span {
+                padding-left: 30px;
+                position: relative;
+                padding-right: 193px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            span::before {
+                font-family: "icomoon";
+                content: "\e90e";
+                position: absolute;
+                left: 0;
+                color: $button;
+            }
+            span::after {
+                content: "426";
+                position: absolute;
+                right: 0;
+                top: 0;
+                font-size: 18px;
+            }
+        }
+    }
 }
